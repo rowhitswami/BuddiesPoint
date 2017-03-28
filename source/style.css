@@ -593,14 +593,19 @@ a.nounderline:link
 /*Profile Section End*/
 
 /*Chat Section Start*/
-
+.chat-heading{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding-top:20px;
+}
 .chat-img img{
     width: 70px;
     height: 72px;
     border-radius: 50px;
-    margin: 15px 0px 15px 0;
+    margin: 15px 0px 15px 10px;
 }
-.chat-img h6, p{
+.col-md-8 h6, p{
     line-height: 7px;
 }
 .chatbox-outline{
@@ -623,6 +628,9 @@ a.nounderline:link
     background-color: #F1F1F1;
     cursor: pointer;
 }
+.chat-outline-first{
+    border-bottom: 1px solid #f0f0f0;
+}
 
 p.time{
     font-style: italic;
@@ -630,4 +638,18 @@ p.time{
 }
 p.user-message{
     font-size: 13px;
+}
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2196f3;
 }
