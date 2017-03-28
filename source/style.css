@@ -262,6 +262,17 @@ a img
     background-color: #e91e63;
 }
 
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2196f3;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
 .mdl-layout__header--waterfall.is-casting-shadow {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
@@ -304,7 +315,6 @@ a img
     display: none !important;
 }
 
-/*important*/
 .bp-logo-image
 {
     width: 200px;
@@ -344,8 +354,6 @@ a img
 
     transition: opacity .2s cubic-bezier(.4, 0, .2, 1),
     width .2s cubic-bezier(.4, 0, .2, 1);
-    /* Simple hack to make the overflow happen to the left instead... */
-
     direction: rtl;
     -webkit-order: 1;
     -ms-flex-order: 1;
@@ -355,7 +363,6 @@ a img
 .bp-navigation
 {
     width: 800px;
-    /* ... and now make sure the content is actually LTR */
 
     direction: ltr;
     -webkit-justify-content: flex-end;
@@ -403,7 +410,6 @@ a.nounderline:link
             order: 2;
 }
 
-/*important*/
 .bp-more-button
 {
     -webkit-order: 3;
@@ -411,7 +417,6 @@ a.nounderline:link
             order: 3;
 }
 
-/*important complete drawer class*/
 .bp-drawer
 {
     border-right: none;
@@ -454,13 +459,6 @@ a.nounderline:link
     left: 20px;
 }
 
-/*important*/
-
-
-
-
-
-/**** Mobile layout ****/
 @media (max-width: 900px)
 {
     .bp-navigation-container
@@ -605,7 +603,7 @@ a.nounderline:link
     border-radius: 50px;
     margin: 15px 0px 15px 10px;
 }
-.col-md-8 h6, p{
+.col-md-8 h6{
     line-height: 7px;
 }
 .chatbox-outline{
@@ -635,21 +633,22 @@ a.nounderline:link
 p.time{
     font-style: italic;
     font-size: 12px;
+    line-height: 7px;
 }
 p.user-message{
     font-size: 13px;
+    line-height: 7px;
 }
-
-
-/* Let's get this party started */
-::-webkit-scrollbar {
-    width: 12px;
+.message-photo img{
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 15px;
 }
- 
-/* Track */
-
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #2196f3;
+.message-text{
+    margin-top: 15px;
+    width: 60%;
+    height: auto;
+    background-color: #f5f5f5;
+    border-radius: 5px;
 }
