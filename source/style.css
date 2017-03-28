@@ -108,7 +108,7 @@
     animation-duration: 1.5s;
     animation-timing-function: ease;
 }
-#chat
+#chat-icon
 {
     margin-bottom: 40px;
 }
@@ -334,8 +334,8 @@ a img
 {
     font-size: 14px;
     font-weight: 700;
-
-    color: #757575;
+    text-decoration: none;
+   color: #757575;
 }
 
 .bp-navigation-container
@@ -376,7 +376,7 @@ a img
     line-height: 68px;
 
     display: inline-block;
-
+    text-decoration: none;
     height: 60px;
 
     border-bottom: 4px solid transparent;
@@ -386,7 +386,12 @@ a img
 .bp-navigation .mdl-navigation__link:hover
 {
     border-bottom: 4px solid #2196f3;
+    text-decoration: none;
 }
+a.nounderline:link  
+{  
+ text-decoration:none;  
+} 
 
 .bp-search-box
 {
@@ -583,4 +588,46 @@ a img
 {
     color: #e91e63;
     background-color: transparent;
+}
+
+/*Profile Section End*/
+
+/*Chat Section Start*/
+
+.chat-img img{
+    width: 70px;
+    height: 72px;
+    border-radius: 50px;
+    margin: 15px 0px 15px 0;
+}
+.chat-img h6, p{
+    line-height: 7px;
+}
+.chatbox-outline{
+    border: 1px solid #F0F0F0;
+}
+
+.chat-outline{
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 5px;
+}
+
+.chat-outline:hover{
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 5px;
+    background-color: #F1F1F1;
+    cursor: pointer;
+}
+
+.chat-outline-last:hover{
+    background-color: #F1F1F1;
+    cursor: pointer;
+}
+
+p.time{
+    font-style: italic;
+    font-size: 12px;
+}
+p.user-message{
+    font-size: 13px;
 }
