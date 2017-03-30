@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Profile</title>
+    <title>Chat</title>
 
     <!-- Page styles -->
+    <link rel="shortcut icon" href="image\favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="source\bootstrap.css">
@@ -55,8 +56,28 @@
           </ul>
         </div>
       </div>
+
+
+      <div class="bp-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="bp-logo-image" src="image\logo.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Home</a>
+          <a class="mdl-navigation__link" href="">Profile</a>
+          <a class="mdl-navigation__link" href="">Chat</a>
+          <a class="mdl-navigation__link" href="">Learn</a>
+          <a class="mdl-navigation__link" href="">Business</a>
+          <div class="bp-drawer-separator"></div>
+          <a class="mdl-navigation__link" href="">Setting</a>
+          <a class="mdl-navigation__link" href="">About</a>
+          <a class="mdl-navigation__link" href="">Logout</a>
+        </nav>
+      </div>
+      <div class="mdl-layout__content">
+        
 <!--Chat Area Start-->
-<section class="fluid-container" >
+<section class="fluid-container">
     <div class="row">
     <!--Chat Box Start-->
       <div class="col-md-3" >
@@ -144,7 +165,7 @@
                  <div class="col-md-8">
                   <h6><b>Prashant Saini</b></h6>
                     <p class="user-message">I'm playing Games bro..</p>
-                    <p class="time"><img src="image\timer-pink.png"> About a minute ago</p>
+                    <span><p class="time"><img src="image\timer-pink.png"> About a minute ago</p></span>
                 </div>
               </div>
             </span>
@@ -154,7 +175,7 @@
       </div>
       <!--Chat Box End-->
       <!--Message Box Start-->
-      <div class="col-md-7 chatbox-outline">
+      <div class="col-md-7 chatbox-outline mdl-shadow--3dp" >
         <div class="row">
           <div class="col-md-12 chat-outline-first">
             <div class="col-md-8 ">
@@ -169,68 +190,136 @@
             </div>
           </div>
       <!--Message Box End-->
+      <div  class="chat-scroll">
         <div class="row">
+          <!--start-->
           <div class="col-md-12">
-            <div class="row" >
-              <div class="col-md-1 message-photo"><img src="image\user\1.jpg" width="40px" height="40px"></div>
-              <div class="col-md-11 message-text"><p>hiiiiiii</p></div>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="row">
+            <div class="row friend-message">
               <div class="col-md-1 message-photo"><img src="image\user\1.jpg"></div>
               <div class="col-md-11 message-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis distinctio nostrum at magnam, a tenetur, corrupti </p></div>
             </div>
           </div>
           <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-11 message-text"><p>consectetur placeat tempore ex rerum, fugiat facere praesentium ipsum. A quasi aut, voluptatibus.</p></div>
+            <div class="row my-message">
+              <div class="col-md-11 col-md-offset-1 message-text-1"><p>consectetur placeat tempore ex rerum, fugiat facere praesentium ipsum. A quasi aut, voluptatibus.</p></div>
+              <div class="col-md-1 message-photo"><img src="image\user\rowhit.jpg"></div>
+            </div>
+          </div>
+          <!--end-->
+          <div class="col-md-12">
+            <div class="row friend-message">
+              <div class="col-md-1 message-photo"><img src="image\user\1.jpg"></div>
+              <div class="col-md-11 message-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis distinctio nostrum at magnam, a tenetur, corrupti </p></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row my-message">
+              <div class="col-md-11 col-md-offset-1 message-text-1"><p>consectetur placeat tempore ex rerum, fugiat facere praesentium ipsum. A quasi aut, voluptatibus.</p></div>
               <div class="col-md-1 message-photo"><img src="image\user\rowhit.jpg"></div>
             </div>
           </div>
           <div class="col-md-12">
-            <div class="row">
+            <div class="row friend-message">
               <div class="col-md-1 message-photo"><img src="image\user\1.jpg"></div>
-              <div class="col-md-11 message-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ex odio facilis possimus.</p></div>
+              <div class="col-md-11 message-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis distinctio nostrum at magnam, a tenetur, corrupti </p></div>
             </div>
           </div>
           <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-11 message-text"><p>consectetur placeat tempore ex rerum, fugiat facere praesentium ipsum. A quasi aut, voluptatibus.</p></div>
+            <div class="row my-message">
+              <div class="col-md-11 col-md-offset-1 message-text-1"><p>consectetur placeat tempore ex rerum, fugiat facere praesentium ipsum. A quasi aut, voluptatibus.</p></div>
+              <div class="col-md-1 message-photo"><img src="image\user\rowhit.jpg"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row friend-message">
+              <div class="col-md-1 message-photo"><img src="image\user\1.jpg"></div>
+              <div class="col-md-11 message-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis distinctio nostrum at magnam, a tenetur, corrupti </p></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row my-message">
+              <div class="col-md-11 col-md-offset-1 message-text-1"><p>consectetur placeat tempore ex rerum, fugiat facere praesentium ipsum. A quasi aut, voluptatibus.</p></div>
+              <div class="col-md-1 message-photo"><img src="image\user\rowhit.jpg"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row friend-message">
+              <div class="col-md-1 message-photo"><img src="image\user\1.jpg"></div>
+              <div class="col-md-11 message-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis distinctio nostrum at magnam, a tenetur, corrupti </p></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row my-message">
+              <div class="col-md-11 col-md-offset-1 message-text-1"><p>consectetur placeat tempore ex rerum, fugiat facere praesentium ipsum. A quasi aut, voluptatibus.</p></div>
+              <div class="col-md-1 message-photo"><img src="image\user\rowhit.jpg"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row friend-message">
+              <div class="col-md-1 message-photo"><img src="image\user\1.jpg"></div>
+              <div class="col-md-11 message-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis distinctio nostrum at magnam, a tenetur, corrupti </p></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row my-message">
+              <div class="col-md-11 col-md-offset-1 message-text-1"><p>consectetur placeat tempore ex rerum, fugiat facere praesentium ipsum. A quasi aut, voluptatibus.</p></div>
+              <div class="col-md-1 message-photo"><img src="image\user\rowhit.jpg"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row friend-message">
+              <div class="col-md-1 message-photo"><img src="image\user\1.jpg"></div>
+              <div class="col-md-11 message-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis distinctio nostrum at magnam, a tenetur, corrupti </p></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row my-message">
+              <div class="col-md-11 col-md-offset-1 message-text-1"><p>consectetur placeat tempore ex rerum, fugiat facere praesentium ipsum. A quasi aut, voluptatibus.</p></div>
+              <div class="col-md-1 message-photo"><img src="image\user\rowhit.jpg"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row friend-message">
+              <div class="col-md-1 message-photo"><img src="image\user\1.jpg"></div>
+              <div class="col-md-11 message-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis distinctio nostrum at magnam, a tenetur, corrupti </p></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row my-message">
+              <div class="col-md-11 col-md-offset-1 message-text-1"><p>consectetur placeat tempore ex rerum, fugiat facere praesentium ipsum. A quasi aut, voluptatibus.</p></div>
               <div class="col-md-1 message-photo"><img src="image\user\rowhit.jpg"></div>
             </div>
           </div>
         </div>
+      </div>
+      <!-- input text start-->
+      <div>
+       <textarea rows="4" cols="95" placeholder="Hello.."></textarea>
+      </div>
+     <!-- input text end -->
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <!-- icon -->
+      </div>
+      <div class="col-md-4">
+        <!-- send button -->
+      </div>
+    </div>
 <!--Message Box End-->
 
       <div class="col-md-2">
       </div>
     </div>
-  </div>
 </section>
 
 
 
 <!-- Chat Area End-->
 
-      <div class="bp-drawer mdl-layout__drawer">
-        <span class="mdl-layout-title">
-          <img class="bp-logo-image" src="image\logo.png">
-        </span>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Home</a>
-          <a class="mdl-navigation__link" href="">Profile</a>
-          <a class="mdl-navigation__link" href="">Chat</a>
-          <a class="mdl-navigation__link" href="">Learn</a>
-          <a class="mdl-navigation__link" href="">Business</a>
-          <div class="bp-drawer-separator"></div>
-          <a class="mdl-navigation__link" href="">Setting</a>
-          <a class="mdl-navigation__link" href="">About</a>
-          <a class="mdl-navigation__link" href="">Logout</a>
-        </nav>
+
       </div>
-      <div class="mdl-layout__content"></div>
-        </div>  
+ </div>  
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </body>
 </html>
