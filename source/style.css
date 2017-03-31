@@ -562,8 +562,8 @@ a.nounderline:link
   border: 1px solid #828282;
   margin-bottom: 200px;
 }
-.message button{
-            font-size: 20px;
+.message-btn button{
+            font-size: 15px;
 
     position: relative;
 
@@ -582,7 +582,7 @@ a.nounderline:link
     background-color: #e91e63;
 }
 
-.message button:hover
+.message-btn button:hover
 {
     color: #e91e63;
     background-color: transparent;
@@ -678,12 +678,37 @@ p.user-message{
     height: 350px; 
     overflow-y: scroll; 
     overflow-x: hidden;
-    border-bottom: 2px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 textarea{
+    width: 100%;
+    resize: none;
+    margin-top: 15px;
+}
+textarea:focus{
     box-shadow: 0 0 10px #e91e63;
     width: 100%;
     resize: none;
     outline: none;
+}
+
+.media{
+    margin-top: 18px;
+}
+
+.media-icons{
+   opacity: 0.5;   
+}
+.media-icons:hover{
+    cursor: pointer;
+   opacity: 1;   
+}
+.send-btn button{
+    background-color: #e91e63;
+    color: white;
+}
+.send-btn button:hover{
+    background-color: #e91e63;
+    color: white;
 }

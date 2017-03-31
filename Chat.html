@@ -27,7 +27,7 @@
           <div class="mdl-layout-spacer"></div>
           <div class="bp-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-              <i class="material-icons">search</i>
+              <img src="image\icons\search.png">
             </label>
             <div class="mdl-textfield__expandable-holder">
               <input class="mdl-textfield__input" type="text" id="search-field">
@@ -37,8 +37,8 @@
           <div class="bp-navigation-container">
             <nav class="bp-navigation mdl-navigation">
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Home</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Profile</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Chat</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="profile.html">Profile</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="chat.html">Chat</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Learn</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Business</a>
             </nav>
@@ -47,7 +47,7 @@
             <img class="bp-logo-image" src="image\home-logo.png">
           </span>
           <button class="bp-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
-            <i class="material-icons">more_vert</i>
+            <img src="image\icons\vertical.png">
           </button>
           <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
             <li class="mdl-menu__item">Setting</li>
@@ -64,8 +64,8 @@
         </span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="">Home</a>
-          <a class="mdl-navigation__link" href="">Profile</a>
-          <a class="mdl-navigation__link" href="">Chat</a>
+          <a class="mdl-navigation__link" href="profile.html">Profile</a>
+          <a class="mdl-navigation__link" href="chat.html">Chat</a>
           <a class="mdl-navigation__link" href="">Learn</a>
           <a class="mdl-navigation__link" href="">Business</a>
           <div class="bp-drawer-separator"></div>
@@ -175,19 +175,22 @@
       </div>
       <!--Chat Box End-->
       <!--Message Box Start-->
-      <div class="col-md-7 chatbox-outline mdl-shadow--3dp" >
+      <div class="col-md-7  mdl-shadow--3dp" >
         <div class="row">
           <div class="col-md-12 chat-outline-first">
             <div class="col-md-8 ">
               <p class="chat-heading">Chat with Prashant Saini</p>
             </div>
-            <div class="col-md-2">
-              <img src="image\phone.png" width="25px" height="25px">
+            <div class="col-md-2 media">
+            <a class="mdl-button mdl-js-button mdl-button--icon" href="">
+              <img src="image\phone.png" width="28px" height="28px">
+            </a>
             </div>
-            <div class="col-md-2">
-                <img src="image\video.png" width="25px" height="25px">
-              </div>
-            </div>
+            <div class="col-md-2 media">
+            <a class="mdl-button mdl-js-button mdl-button--icon" href="">
+              <img src="image\video.png" width="28px" height="28px">
+            </a>
+            </div>            </div>
           </div>
       <!--Message Box End-->
       <div  class="chat-scroll">
@@ -294,17 +297,22 @@
       </div>
       <!-- input text start-->
       <div>
-       <textarea rows="4" cols="95" placeholder="Hello.."></textarea>
+       <textarea rows="4" cols="95" placeholder="Type your message here..."></textarea>
       </div>
      <!-- input text end -->
+    <div class="row" style="padding-bottom: 10px; padding-top: 10px;">
+      <div class="col-md-5">
+       <span class="col-md-2 media-icons"><img src="image\icons\camera.png"></span>
+       <span class="col-md-2 media-icons"><img src="image\icons\photo.png"></span>
+       <span class="col-md-2 media-icons"><img src="image\icons\doc.png"></span>
+       <span class="col-md-2 media-icons"><img src="image\icons\attach.png"></span>
+       <span class="col-md-2 media-icons"><img src="image\icons\smile.png"></span>
+      </div>
+      <div class="col-md-5"></div>
+      <div class="col-md-2">
+        <span class="send-btn"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Send</button></span>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-md-8">
-        <!-- icon -->
-      </div>
-      <div class="col-md-4">
-        <!-- send button -->
-      </div>
     </div>
 <!--Message Box End-->
 
