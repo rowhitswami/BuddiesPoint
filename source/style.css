@@ -563,19 +563,15 @@ a.nounderline:link
   margin-bottom: 200px;
 }
 .message-btn button{
-            font-size: 15px;
-
+    font-size: 15px;
     position: relative;
-
     display: inline-block;
-
     cursor: pointer;
     -webkit-transition: .1s;
        -moz-transition: .1s;
          -o-transition: .1s;
             transition: .1s;
     text-decoration: none;
-
     color: #fff;
     border: 1px #e91e63 solid;
     border-radius: 2px;
@@ -592,6 +588,12 @@ a.nounderline:link
 
 /*Chat Section Start*/
 .chat-heading{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    padding-top:20px;
+}
+.chat-heading-1{
     font-weight: 500;
     font-size: 18px;
     text-align: center;
@@ -618,12 +620,12 @@ a.nounderline:link
 .chat-outline:hover{
     border-bottom: 1px solid #f0f0f0;
     line-height: 5px;
-    background-color: #F1F1F1;
+    background-color: #E6F9FE;
     cursor: pointer;
 }
 
 .chat-outline-last:hover{
-    background-color: #F1F1F1;
+    background-color: #E6F9FE;
     cursor: pointer;
 }
 .chat-outline-first{
@@ -711,4 +713,18 @@ textarea:focus{
 .send-btn button:hover{
     background-color: #e91e63;
     color: white;
+}
+
+.user-img img{
+    width: 120px;
+    height: 120px;
+    vertical-align: middle;
+    border-radius: 500px;
+    margin: 20px auto 0px auto;
+    display: block;
+}
+
+#user-info{
+    margin-top: 3px;
+    margin-bottom: 20px;
 }
