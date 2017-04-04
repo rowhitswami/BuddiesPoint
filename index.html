@@ -40,10 +40,10 @@
 	<div class="vertical-border">&nbsp;</div>
 	<p class="signin-text">Sign-in using social sites</p>
 	<div >
-		<button class="google-signup"><span class="fa fa-google ">&nbsp;&nbsp;&nbsp;Sign-in with Google</span></button>
+		<button class="google-signup"><span class="fa fa-google " onclick="demo()">&nbsp;&nbsp;&nbsp;Sign-in with Google</span></button>
 	</div>
 	<div>
-		<button class="fb-signup"><span class="fa fa-facebook ">&nbsp;&nbsp;&nbsp;Sign-in with Facebook</span></button>
+		<button onclick="demo()" class="fb-signup"><span class="fa fa-facebook ">&nbsp;&nbsp;&nbsp;Sign-in with Facebook</span></button>
 	</div>
 	<div class="parallax"></div>
 
@@ -72,7 +72,7 @@
 							<label for="email"><span class="glyphicon glyphicon-envelope"></span> Email</label>
 							<input type="text" class="form-control" id="email" placeholder="Enter email">
 						</div>
-						<button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Submit</button>
+						<button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off" onclick="demo()"></span> Submit</button>
 					</form>
 				</div>
 				<div class="modal-footer">
@@ -100,16 +100,16 @@
 				<form role="form">
 					<div class="form-group">
 						<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-						<input type="text" class="form-control" id="usrname" placeholder="Enter email">
+						<input type="text" class="form-control" id="username" placeholder="Enter username">
 					</div>
 					<div class="form-group">
 						<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-						<input type="text" class="form-control" id="psw" placeholder="Enter password">
+						<input type="password" class="form-control" id="passwor" placeholder="Enter password">
 					</div>
 					<div class="checkbox">
 						<label><input type="checkbox" value="" checked>Remember me</label>
 					</div>
-					<button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+					<button type="submit" class="btn btn-success btn-block" onclick="validating()" ><span class="glyphicon glyphicon-off"></span> Login</button>
 				</form>
 			</div>
 			<div class="modal-footer">

@@ -728,3 +728,139 @@ textarea:focus{
     margin-top: 3px;
     margin-bottom: 20px;
 }
+
+#main-footer{
+    padding: 6rem 0;
+    background: #262f36;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#main-footer a{
+    color: #2296F3;
+    text-decoration: none;
+}
+
+#main-footer h5{
+    color: #718fa9;
+}
+#main-footer img{
+    width: 200px;
+    height: 40px;
+}
+#main-footer .col-md-6{
+    line-height: 30px;
+}
+.fa-heart{
+    color: #e91e63;
+}
+.fa-smile-o{
+    color: #2196f3;
+}
+
+/*Setting Page start*/
+
+.line-1{
+  border-right: 1px solid #cccccc;
+  height: 450px;
+}
+
+#list-content{
+    border-right: 1px solid #ABABAB;
+    text-align: left;
+    cursor: pointer;
+
+}
+#list-content img{
+    width: 30px;
+    height: 30px;
+}
+
+#list-content a{
+    text-decoration: none;
+}
+.list{
+    border-bottom: 1px solid #DFDFDF;
+    padding: 7px 0;
+}
+
+
+.list:hover{
+    background: #dfdfdf;
+}
+
+#list{
+    margin-top: 15px;
+}
+
+.line-1{
+  border-right: 1px solid #cccccc;
+  height: 450px;
+}
+
+
+p.scaps{
+     font-variant: small-caps;
+      font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    
+  }    
+
+
+       div.general
+     {
+      font-size: 15px;
+        font-family: Florence;
+        position: static;
+        left: 30px;
+
+    
+     }
+     .ola
+     {
+     opacity: 0.5;
+     }
+     table {
+      width: 50%;
+    padding-left: 500px;
+    width:70%; 
+      margin-left:19%; 
+      margin-right:17%;
+    margin-top: 5%;
+     border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+
+  th, td {
+      align: center;
+      padding: 8px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    
+  }
+  .button_s{
+    background-color: transparent;
+    border: 1px solid #2196f3;
+    color: #2196f3;
+    border-radius: 2px;
+  }
+ .button_s:hover
+ {
+  background-color: #2196f3;
+  color: white;
+ }
+ .option_s
+ {
+  border-color: #f5f5f5
+ }
+ #aboutback
+ {
+   border: 2px dotted black;
+   padding: 20px;
+   background: #2196f3;
+   background-clip: content-box;
+ }
+
+ /*Setting Page End*/
