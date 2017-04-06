@@ -10,6 +10,12 @@ $(document).ready(function(){
 		});
 });
 
+$(document).ready(function(){
+		$("#friend-btn").click(function(){
+			$("#friendlist").modal();
+		});
+});
+
 function newLocation(){
 	window.open("profile.html");
 }

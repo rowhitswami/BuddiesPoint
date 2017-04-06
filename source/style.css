@@ -793,10 +793,40 @@ textarea:focus{
     margin-top: 15px;
     margin-bottom: 10px;
 }
+#friendlist{
+    text-align: center;
+}
+.friend-img{
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 500px;
+    width: 85px;
+    height: 85px;
+    border: 2px solid white;
+}
+.checkbox{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -30px;
+    left: 70px;
+}
+.modal-body .col-md-3{
+    position: relative;
+    padding-top: 10px;
+}
+.modal-body .col-md-3:hover{
+    cursor: pointer;
+    background: #E6E6E6;
+}
+.modal-body h5{
+    margin-top: -30px;
+}
 
 .line-1{
   border-right: 1px solid #cccccc;
-  height: 450px;
+  height: 550px;
 }
 
 
@@ -809,54 +839,50 @@ p.scaps{
   }    
 
 
-       div.general
-     {
-      font-size: 15px;
+div.general {
+        font-size: 15px;
         font-family: Florence;
         position: static;
         left: 30px;
-
-    
      }
-     .ola
-     {
+
+.ola {
      opacity: 0.5;
      }
-     table {
-      width: 50%;
-    padding-left: 500px;
-    width:70%; 
-      margin-left:19%; 
-      margin-right:17%;
-    margin-top: 5%;
+
+table {
+      width: 100%;
      border: 1px solid black;
     border-collapse: collapse;
   }
 
 
-  th, td {
-      align: center;
+th, td {
+      align-items: center;
       padding: 8px;
       text-align: center;
-      border-bottom: 1px solid #ddd;
-    
-  }
-  .button_s{
+      border: 1px solid #ddd;
+}
+  
+.button_s{
     background-color: transparent;
     border: 1px solid #2196f3;
     color: #2196f3;
     border-radius: 2px;
   }
- .button_s:hover
+
+.button_s:hover
  {
   background-color: #2196f3;
   color: white;
  }
- .option_s
+
+.option_s
  {
   border-color: #f5f5f5
  }
- #aboutback
+
+#aboutback
  {
    border: 2px dotted black;
    padding: 20px;
@@ -865,3 +891,72 @@ p.scaps{
  }
 
  /*Setting Page End*/
+
+ /*About Us Start*/
+#team{
+    text-align: center;
+    background: #F4F4F4;
+    padding-bottom: 50px;
+}
+#team img{
+    border-radius: 500px;
+    width: 150px;
+    height: 150px;
+}
+#team span{
+    padding-bottom: 5px;
+    position: relative;
+    font-weight: lighter;
+
+}
+#team span::before{
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 1px; 
+    border-bottom: 1px solid #c1c1c1; 
+    content: ""
+}
+#team h1{
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #e91e63;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+}
+.fb:hover {
+    background-color: #3b5998;
+}
+.insta:hover {
+    background-color: #bc2a8d;
+}
+.github:hover {
+    background-color: #333;
+}
+.linkedin:hover {
+    background-color: #007bb6;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+}
+
+
+ /*About Us End*/
